@@ -1,3 +1,5 @@
+/*/ aqui comfiguramos las funciones de la calculadora */
+
 let op;
 document.querySelector('#suma').addEventListener('click', () => {
     op = '+';

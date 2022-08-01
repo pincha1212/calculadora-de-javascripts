@@ -10,11 +10,31 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    
-    <div class="container-fluid btn btn-primary btn-md">
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand">CALCULADORA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+             
+
+          </div>
+        </div>
+      </nav>
+
+    <div class="container-fluid btn alert-primary ">
         <div class="row-12">
-    <input type="text"id="n1" class=" col-1" placeholder="Ingrese número">
-    <input type="text"id="n2" class=" col-1" placeholder="Ingrese número">
+    <input type="text"id="n1" class=" col-1" placeholder="Número">
+    <input type="text"id="n2" class=" col-1" placeholder="Número">
 </div>
     <div class="row-12">
     <button id="suma" class="col-1">+</button>
