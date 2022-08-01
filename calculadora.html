@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" href="../../img/favicon.ico">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <div class="container-fluid btn btn-primary btn-md">
+        <div class="row-12">
+    <input type="text"id="n1" class=" col-1" placeholder="Ingrese número">
+    <input type="text"id="n2" class=" col-1" placeholder="Ingrese número">
+</div>
+    <div class="row-12">
+    <button id="suma" class="col-1">+</button>
+    <button id="resta" class="col-1">-</button></div>
+    <div class="row-12">
+    <button id="multiplicacion" class="col-1">x</button>
+    <button id="division" class="col-1">÷</button></div>
+
+
+    <!--<select id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+
+    </select>-->
+
+    <button id="calcular">calcular</button>
+
+    <p>el resultado es: <output type="text" id="r"></output></p>
+
+</div>
+    
+
+    <script src="./script.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
